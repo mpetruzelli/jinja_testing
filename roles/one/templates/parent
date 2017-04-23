@@ -1,0 +1,9 @@
+THIS IS PARENT ONE
+
+{% block required %}
+THIS IS BLOCK REQUIRED
+{% endblock %}
+
+{% block proxy %}
+THIS IS BLOCK PROXY
+{% endblock %}

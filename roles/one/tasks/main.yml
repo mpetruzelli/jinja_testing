@@ -1,0 +1,12 @@
+---
+- debug:
+    msg: "{{ role_path }}"
+
+- debug:
+    msg: "{{ template_one_parent }}"
+
+- debug:
+    msg: "{{ template_one_child }}"
+#
+# - debug:
+#     msg: "{{ template_one_extends }}"

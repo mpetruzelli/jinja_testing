@@ -1,0 +1,13 @@
+---
+- debug:
+    msg: "{{ playbook_dir }}"
+
+- debug:
+    msg: "{{ template_two_parent }}"
+
+- debug:
+    msg: "{{ template_two_child }}"
+
+
+# - debug:
+#     msg: "{{ template_two_extends }}"

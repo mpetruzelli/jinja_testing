@@ -1,0 +1,9 @@
+template_two_parent: |
+  {% include "roles/two/templates/parent" %}
+
+template_two_child: |
+  {% include "roles/two/templates/child" %}
+
+template_two_extends: |
+  {% include "roles/two/templates/parent" %}
+  {% include "roles/two/templates/child" %}

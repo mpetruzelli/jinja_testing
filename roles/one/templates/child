@@ -1,0 +1,12 @@
+{% extends "roles/one/templates/parent" %}
+
+THIS IS CHILD ONE
+
+{% block required %}
+{{ super() }}
+{% endblock %}
+
+
+{% block proxy %}
+THIS IS CHILD PROXY
+{% endblock %}

@@ -1,0 +1,14 @@
+THIS IS NO BLOCK PARENT TWO
+
+{% block identify %}
+THIS IS BLOCK TWO PARENT
+{% endblock %}
+
+
+{% block required %}
+THIS IS BLOCK TWO PARENT REQUIRED
+{% endblock %}
+
+{% block proxy %}
+THIS IS BLOCK TWO PROXY
+{% endblock %}

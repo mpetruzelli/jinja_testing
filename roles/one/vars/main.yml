@@ -1,0 +1,8 @@
+template_one_parent: |
+  {% include "roles/one/templates/parent" %}
+
+template_one_child: |
+  {% include "roles/one/templates/child" %}
+
+template_one_extends: |
+  {% include "roles/one/templates/child" %}

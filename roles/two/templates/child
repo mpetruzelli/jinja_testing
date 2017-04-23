@@ -1,0 +1,19 @@
+THIS IS CHILD TWO
+
+THIS IS NEW CHILD TWO BLOCK
+{{ super() }}
+
+{% extends "roles/two/templates/parent" %}
+{{ super() }}
+
+{% block identify %}
+{% endblock %}
+
+{% block required %}
+{{ super() }}
+{% endblock %}
+
+
+{% block proxy %}
+THIS IS CHILD TWO PROXY
+{% endblock %}
